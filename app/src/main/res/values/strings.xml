@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TwitterLite</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pie_chart">Pie</string>
+    <string name="title_activity_news">News</string>
+    <string name="title_activity_videos">Videos</string>
+    <string name="title_activity_hashtag_result">HashtagResult</string>
+</resources>

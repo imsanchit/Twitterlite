@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sanchit.twitterlite">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.Home"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Activity.Pie"
+            android:label="@string/title_activity_pie_chart"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.News"
+            android:label="@string/title_activity_news"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity.Videos"
+            android:label="@string/title_activity_videos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Adapter.PlayVideo" />
+        <activity
+            android:name=".Fragment.HashtagResult"
+            android:label="@string/title_activity_hashtag_result"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
